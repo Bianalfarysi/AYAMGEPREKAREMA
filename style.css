@@ -1,4 +1,4 @@
-/* ===== VARIABEL ===== */
+
 :root {
   --biru-tua: #003366;
   --biru-muda: #e6f0ff;
@@ -22,7 +22,6 @@ body {
   line-height: 1.6;
 }
 
-/* ===== MUSIK KONTROL ===== */
 .music-btn {
   position: fixed;
   bottom: 20px;
@@ -42,7 +41,6 @@ body {
   transform: scale(1.1);
 }
 
-/* ===== CORNER FLAG ===== */
 .corner-flag {
   position: fixed;
   top: -20px;
@@ -60,7 +58,6 @@ body {
   pointer-events: none;
 }
 
-/* ===== LOGO AREMA ===== */
 .logo-group {
   position: fixed;
   top: 12px;
@@ -82,7 +79,6 @@ body {
   transform: scale(1.15) rotate(-8deg);
 }
 
-/* ===== HEADER ===== */
 header {
   background: rgba(0, 51, 102, 0.75);
   backdrop-filter: blur(10px);
@@ -119,7 +115,6 @@ header p {
   box-shadow: 0 8px 20px var(--shadow);
 }
 
-/* ===== MENU WRAPPER ===== */
 main {
   max-width: 1000px;
   margin: 30px auto;
@@ -131,7 +126,6 @@ main {
   display: none;
 }
 
-/* ===== KARTU MENU (neumorphism) ===== */
 .menu-card {
   background: var(--putih)
               linear-gradient(145deg, #ffffff 0%, #f5f9ff 100%);
@@ -195,7 +189,6 @@ main {
   margin-left: 8px;
 }
 
-/* ===== FOOTER ===== */
 footer {
   text-align: center;
   padding: 20px 10px 30px;
@@ -203,7 +196,6 @@ footer {
   color: var(--biru-tua);
 }
 
-/* ===== RESPONSIVE GRID ===== */
 @media (min-width: 600px) {
   main {
     grid-template-columns: repeat(2, 1fr);
@@ -214,4 +206,5 @@ footer {
   main {
     grid-template-columns: repeat(3, 1fr);
   }
+
 }
