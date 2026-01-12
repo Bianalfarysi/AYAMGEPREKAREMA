@@ -214,6 +214,17 @@ main {
   max-height: 26px;
 }
 
+.wa-btn {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6); }
+  70% { box-shadow: 0 0 0 12px rgba(37, 211, 102, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+}
+
+
 
 footer {
   text-align: center;
@@ -234,6 +245,7 @@ footer {
   }
 
 }
+
 
 
 
