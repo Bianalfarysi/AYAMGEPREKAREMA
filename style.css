@@ -191,6 +191,31 @@ main {
   margin-left: 8px;
 }
 
+.wa-btn {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  width: 55px;
+  height: 55px;
+  background: #25d366;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+  z-index: 999;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.wa-btn img {
+  width: 30px;
+  height: 30px;
+}
+
+.wa-btn:hover {
+  transform: scale(1.15);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+
 footer {
   text-align: center;
   padding: 20px 10px 30px;
@@ -210,5 +235,6 @@ footer {
   }
 
 }
+
 
 
