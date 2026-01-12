@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayam Geprek Arema</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ===== MUSIK BACKGROUND ===== -->
+  <audio id="bgMusic" loop autoplay>
+    <source src="backsound.mp3" type="audio/mpeg">
+    Browser Anda tidak mendukung audio HTML5.
+  </audio>
+
+  <!-- ===== KONTROL MUSIK ===== -->
+  <button id="musicToggle" class="music-btn" aria-label="Pause/Play Musik">🔊</button>
+
+  <!-- ===== CORNER FLAG ===== -->
+  <div class="corner-flag">🍗</div>
+
+  <!-- ===== LOGO AREMA ===== -->
+  <a href="index.html" class="logo-group">
+    <img src="arema-logo.png" alt="Arema Logo">
+  </a>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <h1>AYAM GEPREK AREMA</h1>
+    <p>Perut Kenyang, Hatipun Senang!</p>
+    <button id="showBtn">LIHAT MENU</button>
+  </header>
+
+  <!-- ===== MENU ===== -->
+  <main id="menuWrapper" class="hidden">
+    <section class="menu-card">
+      <h2>🍗 Paket + Nasi</h2>
+      <ul>
+        <li><span>Ayam Geprek Keju</span><b>Rp 18.000</b></li>
+        <li><span>Ayam Geprek Moza</span><b>Rp 20.000</b></li>
+        <li><span>Ayam Geprek Black Pepper</span><b>Rp 18.000</b></li>
+        <li><span>Ayam Geprek Barbeque</span><b>Rp 18.000</b></li>
+        <li><span>Ayam Geprek Original</span><b>Rp 15.000</b></li>
+        <li><span>Ayam Geprek Cheese Sauce</span><b>Rp 18.000</b></li>
+      </ul>
+    </section>
+
+    <section class="menu-card">
+      <h2>🍗 Tanpa Nasi</h2>
+      <ul>
+        <li><span>Ayam Geprek Original</span><b>Rp 12.000</b></li>
+        <li><span>Ayam Geprek Moza</span><b>Rp 18.000</b></li>
+        <li><span>Ayam Geprek Black Pepper</span><b>Rp 15.000</b></li>
+        <li><span>Ayam Geprek Barbeque</span><b>Rp 15.000</b></li>
+        <li><span>Ayam Geprek Cheese Sauce</span><b>Rp 15.000</b></li>
+        <li><span>Ayam Geprek Keju</span><b>Rp 15.000</b></li>
+      </ul>
+    </section>
+
+    <section class="menu-card">
+      <h2>🥤 Minuman</h2>
+      <ul>
+        <li><span>Taro</span><b>Rp 7.000</b></li>
+        <li><span>Strawberry</span><b>Rp 7.000</b></li>
+        <li><span>Chocolate</span><b>Rp 7.000</b></li>
+        <li><span>Matcha</span><b>Rp 8.000</b></li>
+        <li><span>Bubblegum</span><b>Rp 8.000</b></li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    Hubungi kami: 0813-8929-8999 | Instagram @ayamgeprekarema
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
